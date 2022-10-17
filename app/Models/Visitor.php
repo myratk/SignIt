@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Visitor extends Model
 {
+    protected $fillable = ['name', 'comments'];
     use HasFactory;
 }
